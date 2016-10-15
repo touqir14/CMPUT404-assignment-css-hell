@@ -1,0 +1,132 @@
+
+body {
+	font-family: Times;
+	background: #363636;
+	z-index: 1;
+	margin-right: 2em;
+	margin-left: 2.8em;
+	height: 160em;
+	width: 77em;
+}
+
+#top_bar{
+	height: 2em;
+	width: 77em;
+	box-shadow: 0px 0.5em 5px #111111;
+}
+
+#midTop_bar{
+	background: radial-gradient(#6275FF, #0016BF);
+	height: 13em;
+	width: 77em;
+	box-shadow: 1px 1em 10px #111111;
+}
+
+#midTop_bar_txt1, #midTop_bar_txt2{
+	/*text-align: center;*/
+	font-size: 5em;
+	background: -webkit-linear-gradient(white, #dddddd);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: 0px 2px 0.5px black;
+	position: absolute;
+	left: 5.5em;
+	top: 1.15em;
+	z-index: 2;
+}
+
+#midTop_bar_txt2 {
+	z-index: 1;
+	top: 2.0em;
+	left: 7.5em;
+}
+
+#midBottom_bar {
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 0.2em;
+	height: 3.2em;
+	width: 77em;
+	box-shadow: 0px 5px 5px #0016BF;
+	background: linear-gradient(#444444, #707070)
+}
+
+#midBottom_bar_leftMargin{
+	margin-left: 26.5em;
+}
+
+#midBottom_bar_txt {
+	font-size: 1.3em;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: white;
+	margin: 0.65em;
+	margin-left: 1em;
+
+}
+
+#interior_body {
+	/*margin-left: 2em;*/
+	/*margin-right: 2em;*/
+/*	right: 2em;
+	left: 2em;
+*/	
+	
+/*	padding-right: 2em;
+	padding-left: 2em;
+
+*/	
+	margin-top: 1em;
+	background: white;
+	z-index: 2
+	width: 77em;
+	height: 155em;
+	box-shadow: -2px 1em 10px #111111;
+
+}
+
+#main_body{
+	background: white;
+	/*padding: 3em;*/
+	/*width: 78em;*/
+	/*height: 140em;*/
+
+}
+
+#main_body_parts{
+	padding: 0.2em;
+	margin: 0.2em;
+	position: absolute;
+	margin: 5px;
+	padding: 2.2em;
+	/*margin-top: 17em;*/
+}
+
+#left_part{
+	width: 30em;
+	left: 12em;
+	position: relative;
+	font-size: 1.1em;
+}
+
+#side_bar{
+	margin-top: 2em;
+	margin-left: 47em;
+	height: 31.5em;
+	width: 25em;
+	background: #E6E6E6;
+	box-shadow: 0px 0.5em 5px #111111;
+	padding: 1em;
+}
+
+#myImage{
+	height: 25%;
+	width: 25%;
+}
+
+p.decoration_txt{
+	line-height: 150%;
+}
+
+.bar {
+  border-bottom: 1px solid rgba(0,0,0,.95);
+}

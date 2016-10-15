@@ -1,0 +1,52 @@
+@font-face {
+	font-family: BlackChancery;
+	src: url(BLKCHCRY.TTF);
+}
+
+
+body {
+    background-color: #f5dab3;
+}
+
+p {
+	font-family: BlackChancery;
+	font-size: 120%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color: #841B2D;
+}
+
+h1 {
+	font-family: BlackChancery;
+	font-size: 450%;
+	font-style: italic;
+	font-weight: normal;
+	color: #6B4423;
+}
+
+h2 {
+	font-family: BlackChancery;
+	font-size: 300%;
+	font-style: italic;
+	font-weight: normal;
+	color: #6B4423;
+}
+
+h3 {
+	font-family: BlackChancery;
+	font-size: 100%;
+	font-style: italic;
+	font-weight: normal;
+	color: #6B4423;
+}
+
+figcaption {
+	font-family: BlackChancery;
+	font-size: 150%;	
+}
+
+img {
+	filter: grayscale(80%);
+}

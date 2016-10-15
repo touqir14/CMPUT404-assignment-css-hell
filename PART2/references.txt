@@ -1,0 +1,5 @@
+
+top_bar.png: http://www.pixeden.com/graphic-web-backgrounds/wood-pattern-background
+
+ME.png: My cell phone.
+

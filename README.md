@@ -12,6 +12,8 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Assignment is done by Touqir Sajed for Cmput 404 fall 2016.
+
 License/Copyright
 =================
 

@@ -1,0 +1,135 @@
+@font-face {
+	font-family: comic_sans_MS;
+	src: url(comic_sans_MS.ttf);
+}
+
+
+body {
+	font-family: comic_sans_MS;
+	font-size: 0.9em;
+	background: white;
+	z-index: 1;
+	margin-right: 2em;
+	margin-left: 2.8em;
+	height: 160em;
+	width: 77em;
+}
+
+#top_bar{
+	height: 2em;
+	width: 77em;
+}
+
+#midTop_bar{
+	background: radial-gradient(#6275FF, #0016BF);
+	height: 13em;
+	width: 77em;
+	z-index: 2;
+}
+
+#midTop_bar_txt1, #midTop_bar_txt2{
+	font-size: 5em;
+	background: -webkit-linear-gradient(left, yellow, #FF9A00);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	position: absolute;
+	left: 4.5em;
+	top: 1.15em;
+	z-index: 2;
+}
+
+#midTop_bar_txt2 {
+	background: -webkit-linear-gradient(left, red, blue);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	z-index: 1;
+	top: 1.15em;
+	left: 9em;
+}
+
+#midBottom_bar {
+	display: -webkit-flex;
+	display: flex;
+	height: 3.2em;
+	width: 77em;
+	background: #0016BF;
+	z-index: 3;
+}
+
+#midBottom_bar_leftMargin{
+	margin-left: 22.5em;
+}
+
+#midBottom_bar_txt {
+	font-size: 1.3em;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: black;
+	margin-left: 1em;
+	background: yellow;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding: 1em;
+	box-shadow: 0px 0.3em 1px yellow;
+}
+
+#beta{
+	color: black;
+	background: yellow;
+	/*padding: 2em;*/
+	z-index: 3;
+	height: 2em;
+	width: 2.7em;
+	position: absolute;
+	left: 50em;
+	top: 5.4em;
+}
+
+#interior_body {
+	margin-top: 1em;
+	background: white;
+	z-index: 2
+	width: 77em;
+	height: 155em;
+}
+
+#main_body{
+	background: white;
+
+}
+
+#main_body_parts{
+	padding: 0.2em;
+	margin: 0.2em;
+	position: absolute;
+	margin: 5px;
+	padding: 2.2em;
+}
+
+#left_part{
+	width: 30em;
+	left: 12em;
+	position: relative;
+	font-size: 1.1em;
+}
+
+#side_bar{
+	margin-top: 2em;
+	margin-left: 47em;
+	height: 31.5em;
+	width: 25em;
+	background: yellow;
+	padding: 1em;
+}
+
+#myImage{
+	height: 25%;
+	width: 25%;
+}
+
+p.decoration_txt{
+	line-height: 150%;
+}
+
+.bar {
+  border-bottom: 1px solid rgba(0,0,0,.95);
+}
