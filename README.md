@@ -31,6 +31,10 @@ PART 1 Changes:
 
 * I made sure that images are all turned to grayscale with effect of 80%.
 
+Part 2:
+
+Good webpage can be accessed at https://touqir14.github.io/good.html
+Bad webpage can be accessed at https://touqir14.github.io/bad.html
 
 License/Copyright
 =================
